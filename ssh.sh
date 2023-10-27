@@ -1,5 +1,5 @@
 #!/bin/bash
->/root/hostLive
+>/root/hostdie
 read -p "将你互信的网段输入" addr
 read -p "将你互信的结束地址号输入" fip
 read -p "将你要互信的所有主机的密码输入" pw
