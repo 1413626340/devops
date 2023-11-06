@@ -3,9 +3,9 @@
 #!/bin/bash
 #防火墙
 systemctl stop firewalld.service
-systemctl disabled firewalld.service
+systemctl disable firewalld.service
 systemctl stop NetworkManager
-systemctl disabled  NetworkManager
+systemctl disable  NetworkManager
 setenforce 0
 sed -ri '/^SELINUX/c SELINUX=disabled' /etc/selinux/config
 
